@@ -30,7 +30,7 @@ func NewSQLiteStore(dbPath string) (*SQLiteStore, error) {
 		return nil, err
 	}
 
-	db, err := sql.Open("sqlite3", dbPath+"?_journal_mode=WAL")
+	db, err := sql.Open("sqlite", dbPath+"?_journal_mode=WAL")
 	if err != nil {
 		return nil, err
 	}
