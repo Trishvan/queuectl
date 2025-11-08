@@ -1,4 +1,4 @@
-module github.com/your-username/queuectl
+module github.com/Trishvan/queuectl
 
 go 1.18
 

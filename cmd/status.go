@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/your-username/queuectl/internal/store"
-	"github.com/your-username/queuectl/internal/worker"
+	"github.com/Trishvan/queuectl/internal/store"
+	"github.com/Trishvan/queuectl/internal/worker"
 	"github.com/olekukonko/tablewriter"
 	"github.com/spf13/cobra"
 )

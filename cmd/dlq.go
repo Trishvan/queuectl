@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/your-username/queuectl/internal/store"
+	"github.com/Trishvan/queuectl/internal/store"
 	"github.com/olekukonko/tablewriter"
 	"github.com/spf13/cobra"
 )

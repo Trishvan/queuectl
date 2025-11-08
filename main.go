@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/your-username/queuectl/cmd"
+	"github.com/Trishvan/queuectl/cmd"
 )
 
 func main() {

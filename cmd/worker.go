@@ -3,7 +3,7 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/your-username/queuectl/internal/worker"
+	"github.com/Trishvan/queuectl/internal/worker"
 	"github.com/spf13/cobra"
 )
 
