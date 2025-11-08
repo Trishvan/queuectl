@@ -29,7 +29,7 @@ func getConfigPath() (string, error) {
 	return filepath.Join(configDir, "config.json"), nil
 }
 
-func getDataDir() (string, error) {
+func GetDataDir() (string, error) {
 	home, err := os.UserHomeDir()
 	if err != nil {
 		return "", err
@@ -47,7 +47,7 @@ func Load() (*Config, error) {
 		return nil, err
 	}
 
-	dataDir, err := getDataDir()
+	dataDir, err := GetDataDir()
 	if err != nil {
 		return nil, err
 	}
