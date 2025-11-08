@@ -13,8 +13,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/your-username/queuectl/internal/config"
-	"github.com/your-username/queuectl/internal/store"
+	"github.com/Trishvan/queuectl/internal/config"
+	"github.com/Trishvan/queuectl/internal/store"
 )
 
 // Worker processes jobs from the queue.

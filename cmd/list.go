@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/Trishvan/queuectl/internal/store"
-	"github.comcom/olekukonko/tablewriter"
+	"github.com/olekukonko/tablewriter"
 	"github.com/spf13/cobra"
 )
 
